@@ -24,11 +24,11 @@ const Testimonial: React.FC = () => {
           <div className="testimonial-author">
             <img 
               src={testimonialAvatar} 
-              alt="Jake Smith" 
-              className="author-avatar" 
+              alt="John Maina" 
+              className="author-avatar"
             />
             <div className="author-info">
-              <h4>Jake Smith</h4>
+              <h4>John Maina</h4>
               <span>Member since 2023</span>
               <div className="testimonial-rating">
                 {[...Array(5)].map((_, i) => (

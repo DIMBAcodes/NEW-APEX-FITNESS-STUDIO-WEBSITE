@@ -14,14 +14,14 @@ const Products: React.FC = () => {
   const filters = ['All', 'Memberships', 'Programs', 'Nutrition'];
 
   const products = [
-    { id: 1, name: 'Monthly Membership', category: 'Memberships', price: '$49', image: productMonthly, badge: 'Popular' },
-    { id: 2, name: 'Annual Membership', category: 'Memberships', price: '$399', image: productAnnual, badge: 'Best Value' },
-    { id: 3, name: 'Weight Loss Program', category: 'Programs', price: '$199', image: productWeightloss },
-    { id: 4, name: 'Muscle Building Program', category: 'Programs', price: '$249', image: productMuscle },
-    { id: 5, name: 'HIIT Training', category: 'Programs', price: '$179', image: productHiit },
-    { id: 6, name: 'Flexibility Training', category: 'Programs', price: '$129', image: productFlexibility },
-    { id: 7, name: 'Endurance Training', category: 'Programs', price: '$159', image: productEndurance },
-    { id: 8, name: 'Nutrition Coaching', category: 'Nutrition', price: '$99', image: productNutrition, badge: 'New' },
+    { id: 1, name: 'Monthly Membership', category: 'Memberships', price: 'Ksh 12,500', image: productMonthly, badge: 'Popular' },
+    { id: 2, name: 'Annual Membership', category: 'Memberships', price: 'KSh 42,000', image: productAnnual, badge: 'Best Value' },
+    { id: 3, name: 'Weight Loss Program', category: 'Programs', price: 'Ksh 2,000', image: productWeightloss },
+    { id: 4, name: 'Muscle Building Program', category: 'Programs', price: 'Ksh 3,500', image: productMuscle },
+    { id: 5, name: 'HIIT Training', category: 'Programs', price: 'Ksh 55,000', image: productHiit },
+    { id: 6, name: 'Flexibility Training', category: 'Programs', price: 'Ksh 15,000', image: productFlexibility },
+    { id: 7, name: 'Endurance Training', category: 'Programs', price: 'Ksh 10,000', image: productEndurance },
+    { id: 8, name: 'Nutrition Coaching', category: 'Nutrition', price: 'Ksh 20,000', image: productNutrition, badge: 'New' },
   ];
 
   const filteredProducts = activeFilter === 'All' 
