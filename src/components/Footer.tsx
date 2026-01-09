@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="footer-grid">
           <div className="footer-about">
             <a href="#" className="footer-logo">
-              we<span>Can</span>
+              Apex<span>Fitness</span>
             </a>
             <p>
               Your ultimate fitness destination. Transform your body, elevate your 
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>© 2024 Sage Fitness Studio. All rights reserved.</p>
+          <p>© 2024 Apex Fitness Studio. All rights reserved.</p>
           <div className="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

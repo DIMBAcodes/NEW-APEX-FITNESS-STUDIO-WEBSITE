@@ -28,7 +28,7 @@ const Header: React.FC = () => {
       <div className="header-container">
         {/* Logo Section */}
         <a href="#" className="logo" aria-label="Sage Fitness Home">
-          Sage<span>FitnessStudio</span>
+          Apex<span>FitnessStudio</span>
         </a>
 
         {/* Desktop Navigation */}
