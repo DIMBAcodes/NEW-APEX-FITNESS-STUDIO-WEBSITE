@@ -27,7 +27,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'header-scrolled' : ''} ${isMenuOpen ? 'menu-is-open' : ''}`}>
       <div className="header-container">
         {/* Logo Section */}
-        <a href="#" className="logo" aria-label="Sage Fitness Home">
+        <a href="#" className="logo" aria-label="Apex Fitness Home">
           Apex<span>FitnessStudio</span>
         </a>
 
