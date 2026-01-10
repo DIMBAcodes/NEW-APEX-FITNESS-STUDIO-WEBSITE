@@ -16,7 +16,7 @@ const Categories: React.FC = () => {
     <section className="categories" id="programs">
       <div className="categories-container">
         <div className="categories-header">
-          <h2>New In Store Now</h2>
+          <h2>New In Studio Now</h2>
         </div>
         
         <div className="categories-grid">
