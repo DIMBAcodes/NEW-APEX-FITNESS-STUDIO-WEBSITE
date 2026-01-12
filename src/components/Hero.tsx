@@ -1,5 +1,6 @@
 import React from "react";
-import "./Hero.css";
+import '../styles/Hero.css'; // ✅ goes up one level, then into styles/
+
 
 const Hero: React.FC = () => {
   return (
